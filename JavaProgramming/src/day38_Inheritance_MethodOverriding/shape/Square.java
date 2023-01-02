@@ -2,7 +2,15 @@ package day38_Inheritance_MethodOverriding.shape;
 
 public class Square extends Shape{
 
-    public int side;
+    private int side;
+
+    public int getSide() {
+        return side;
+    }
+
+    public void setSide(int side) {
+        this.side = side;
+    }
 
     public Square(String name, int side) {
         super(name);

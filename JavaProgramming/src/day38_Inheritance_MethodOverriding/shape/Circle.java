@@ -2,8 +2,24 @@ package day38_Inheritance_MethodOverriding.shape;
 
 public class Circle extends Shape {
 
-    public double radius;
-    public double pi;
+    private double radius;
+    static double pi;
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public double getPi() {
+        return pi;
+    }
+
+    public void setPi(double pi) {
+        this.pi = pi;
+    }
 
     public Circle(String name, double radius, double pi) {
         super(name);
