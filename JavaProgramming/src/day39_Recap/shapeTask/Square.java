@@ -15,13 +15,32 @@ public class Square extends Shape{
 
     public void setSide(double side) {
         if (side<=0){
-            System.err.println("Invalid Side");
+            System.err.println("Invalid Side: " + side);
             System.exit(1);
         }
         this.side = side;
     }
 
-     /*
+    @Override
+    public double area() {
+        return side * side;
+    }
+
+    @Override
+    public double perimeter() {
+        return side * 4;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                ", area=" + area() +
+                ", perimeter=" + perimeter() +
+                '}';
+    }
+
+   /*
 Square extends Shape:
 variables:
 side;
