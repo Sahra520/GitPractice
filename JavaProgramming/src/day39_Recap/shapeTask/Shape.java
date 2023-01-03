@@ -52,15 +52,3 @@ perimeter(){}
     }
 }
 
-/*
-Rectangle extends Shape:
-variables:
-length,
-width
-Encapsulate the field
-
-Add a constructor to set the field
-area():length*width
-perimeter():2*(length+width)
-toString():side, area, perimeter
- */
