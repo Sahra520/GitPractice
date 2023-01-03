@@ -43,20 +43,14 @@ perimeter(){}
         return 0;
     }
 
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
-
-/*
-Square extends Shape:
-variables:
-side;
-
-Encapsulate the field
-
-Add a constructor to set the field
-area():side*side
-perimeter():side*4
-toString():side, area, perimeter
- */
 
 /*
 Rectangle extends Shape:
