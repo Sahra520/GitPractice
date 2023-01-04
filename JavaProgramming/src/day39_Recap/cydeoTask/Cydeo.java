@@ -52,6 +52,9 @@ public class Cydeo {
 
         System.out.println(" ");
 
+        student.study();
+        student.setFieldOfStudy("SDET");
+
 
 
     }
