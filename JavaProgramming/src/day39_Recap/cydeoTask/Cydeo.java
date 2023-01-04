@@ -29,6 +29,31 @@ public class Cydeo {
         System.out.println("Teacher age: " + teacher.getAge());
         System.out.println(teacher);
 
+        developer.work();
+        teacher.work();
+        tester.work();
+        student.study();
+
+        System.out.println(" ");
+        developer.fixingBugs();
+        developer.eat();
+        developer.drink();
+
+        System.out.println(" ");
+
+        tester.work();
+        tester.createTicket();
+
+        System.out.println(" ");
+
+        teacher.work();
+        teacher.eat();
+        teacher.drink();
+
+        System.out.println(" ");
+
+
+
     }
 
 }
