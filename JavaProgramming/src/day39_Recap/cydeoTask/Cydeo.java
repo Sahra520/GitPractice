@@ -27,6 +27,7 @@ public class Cydeo {
 
         teacher.setAge(39);
         System.out.println("Teacher age: " + teacher.getAge());
+        System.out.println(teacher);
 
     }
 
