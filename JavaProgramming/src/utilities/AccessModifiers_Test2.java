@@ -12,7 +12,7 @@ public class AccessModifiers_Test2 {
 
 
         AccessModifiers.method1();
-       // AccessModifiers.method2();
+        //  AccessModifiers.method2();
         //    AccessModifiers.method3();
 
 
