@@ -33,7 +33,9 @@ public class Student extends Person{
         this.fieldOfStudy = fieldOfStudy;
     }
 
-
+    public void study(){
+        System.out.println(getName() + " " + studentId + " is studying.");
+    }
 
     @Override
     public String toString() {
