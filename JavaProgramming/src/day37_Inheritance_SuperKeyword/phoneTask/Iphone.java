@@ -1,6 +1,6 @@
 package day37_Inheritance_SuperKeyword.phoneTask;
 
-public class Iphone extends Phone {
+public final class Iphone extends Phone {
 
     // we deleted here String brand because we initialized this static in super keyword for all Iphone class
     public Iphone(String model, String size, double price, String color) {
