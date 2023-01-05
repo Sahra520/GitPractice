@@ -1,6 +1,6 @@
 package utilities;
 
-import day40_FinalKeyboard.ProtectedAccessModifier;
+import day40_FinalKeyword.ProtectedAccessModifier;
 
 public class AccessModifiers_Test4 extends ProtectedAccessModifier {
 

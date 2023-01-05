@@ -1,4 +1,4 @@
-package day40_FinalKeyboard;
+package day40_FinalKeyword;
 
 public class Zoo {
 

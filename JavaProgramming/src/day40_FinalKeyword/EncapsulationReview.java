@@ -1,4 +1,4 @@
-package day40_FinalKeyboard;
+package day40_FinalKeyword;
 
 import day39_Recap.shapeTask.Circle;
 import day39_Recap.shapeTask.Square;

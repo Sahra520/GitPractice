@@ -1,7 +1,5 @@
 package utilities;
 
-import day40_FinalKeyboard.ProtectedAccessModifier;
-
 public class AccessModifiers_Test3 {
 
     public static void main(String[] args) {
