@@ -2,6 +2,8 @@ package day41_Exceptions;
 
 import day39_Recap.cydeoTask.Student;
 
+import java.io.FileInputStream;
+
 public class Checked_vs_Unchecked {
 
     public static void main(String[] args) throws InterruptedException {
@@ -47,6 +49,11 @@ public class Checked_vs_Unchecked {
 
         System.out.println("Cydeo");
 
+        //FileInputStream file = new FileInputStream("path of the file");  //checked exception
+
+        System.out.println("java".charAt(20000));//String index out of range: 20000
+        //Process finished with exit code 1
+        //if compile is happy with that exception before running--> its unchecked exceptions
 
     }
 }
