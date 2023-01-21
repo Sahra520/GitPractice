@@ -59,7 +59,7 @@ public abstract class Person {
 /*
 Employee task:
 abstract Person:
-name, age, gender(final)
+name, age, gender
 eat();
 sleep();
 abstract Employee extends Person:
