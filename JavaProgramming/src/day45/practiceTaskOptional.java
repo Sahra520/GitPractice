@@ -59,7 +59,7 @@ screenshot on: " + browserName + " browser"
 executeScript(String script):
 "Executing
 \"" + script + "\" script on" + browserName +" browser"
-6. Create the following sub classes of RemoteDriver
+6. Create the following subclasses of RemoteDriver
 1. ChromeDriver
 2. FireFoxDriver
 3. EdgeDriver
