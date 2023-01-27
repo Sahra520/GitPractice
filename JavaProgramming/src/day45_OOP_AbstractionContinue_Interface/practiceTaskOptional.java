@@ -4,10 +4,6 @@ public class practiceTaskOptional {
 }
 
 /*
-
-Page
-1
-of 2
 Browsers Task:
 1. Create an interface named SearchContext
 Abstract methods:
