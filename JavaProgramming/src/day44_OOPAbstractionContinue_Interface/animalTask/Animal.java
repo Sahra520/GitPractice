@@ -1,4 +1,4 @@
-package day44_OOPAbstractionContinue_Interface.animal;
+package day44_OOPAbstractionContinue_Interface.animalTask;
 
 public abstract class Animal {
 
